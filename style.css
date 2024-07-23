@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+body{
+background-image:linear-gradient(rgb(255, 255, 255),rgb(218, 218, 218),rgb(105, 105, 105),rgb(65, 64, 64));
+background-repeat: no-repeat;
+height: 100vh;
+}
+h1,h2,h3{
+    text-align: center;
+}
+.fileContainer{
+    position: relative;
+    width: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#fileUpload{
+    opacity: 0;
+    width: 8rem;
+}
+.newInput{
+    width: 8rem;
+    display: block;
+    background: #39D2B4;
+    color: #fff;
+    font-size: 1em;
+    transition: all .4s;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding-left:1rem;
+    padding-right:1rem;
+    border-radius: 0.2rem;
+}
+.newInput:hover{
+        background: #34495E;
+        color: #39D2B4;
+}
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
+}
+#msg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: none;
+}
+#msg:focus{
+    border-bottom:5px solid #39D2B4;
+}
+.btn{
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border-style: none;
+}
+.btn:hover{
+    color:rgb(255, 255, 255);
+    background-color: #34495E;
+    cursor: pointer;
+    font-weight: bold;
+}
+#encodedImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#decodedText{
+    text-align: center;
+    color:red;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    letter-spacing: 0.25rem;
+}
+#encodedImage{
+    width: 20rem;
+    height: auto;
+}

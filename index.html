@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Steganography Online Tool</h1>
+    <canvas id="canvas" style="display: none;"></canvas><br>
+    <div class="fileContainer">
+        <input type="file" id="fileUpload" accept="image/*, image/svg">
+        <label for="fileUpload" class="newInput">Select a file</label>
+    </div>
+    <br>
+    <textarea id="msg" placeholder="Enter message to encode/decode" rows="10" cols="50"></textarea>
+    <br>
+    <div class="btnContainer">
+        <button id="encode" class="btn">Encode</button>
+        <button id="decode" class="btn">Decode</button>
+    </div>
+    <img id="encodedImage">
+    <h3>Decoded Message</h2>
+    <p id="decodedText"></p>
+    <script src="index.js"></script>
+</body>
+</html>
