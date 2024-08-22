@@ -1,13 +1,13 @@
 # Steganography
-Steganography is the practice of hiding a secret message inside digital media (Images)
+Steganography is the practice of hiding a secret message inside digital media (Images).
 
 # About
-An online steganography tool built using JavaScript for image processing purposes
+An online steganography tool built using JavaScript for image processing purposes.
 https://amrweb02.github.io/Steganography/
 
 # Prequisites
 1. File Reader WEB API
-2. CANVAS WEB API.
+2. CANVAS WEB API
 3. Problem-solving skill
    
 # Procedure
